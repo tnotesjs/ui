@@ -1,0 +1,4 @@
+allowBuilds:
+  '@parcel/watcher': true
+minimumReleaseAgeExclude:
+  - '@tnotesjs/mindmap-core@0.2.2'

@@ -1,0 +1,35 @@
+/**
+ * Host-neutral design tokens for @tnotesjs/ui.
+ * VitePress themes should alias these to --vp-*; Desk aliases to --editor-*.
+ */
+:root {
+  --tn-c-brand: #3451b2;
+  --tn-c-text: #213547;
+  --tn-c-text-2: #476582;
+  --tn-c-bg: #ffffff;
+  --tn-c-bg-soft: #f6f6f7;
+  --tn-c-bg-elv: #ffffff;
+  --tn-c-divider: #e2e2e3;
+  --tn-c-danger: #cb2a2a;
+  --tn-c-success-soft: #e3f9e5;
+  --tn-c-danger-soft: #fde8e8;
+  --tn-c-default-soft: #e8e8e9;
+  --tn-shadow-2: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --tn-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+html.dark,
+html[data-theme='dark'] {
+  --tn-c-brand: #a8b1ff;
+  --tn-c-text: #dfdfd6;
+  --tn-c-text-2: #98989f;
+  --tn-c-bg: #1b1b1f;
+  --tn-c-bg-soft: #161618;
+  --tn-c-bg-elv: #202127;
+  --tn-c-divider: #2e2e32;
+  --tn-c-danger: #f66f81;
+  --tn-c-success-soft: #1c3b2a;
+  --tn-c-danger-soft: #3b1c1c;
+  --tn-c-default-soft: #2e2e32;
+  --tn-shadow-2: 0 4px 12px rgba(0, 0, 0, 0.45);
+}
