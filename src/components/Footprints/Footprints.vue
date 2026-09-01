@@ -166,7 +166,7 @@ watch(
       class="tn-footprints__images"
       :class="imageLayoutClass"
     >
-      <slot name="image-list" :open-modal="openModal" :openModal="openModal">
+      <slot name="image-list" :open-modal="openModal">
         <button
           v-for="(src, index) in images"
           :key="`${src}-${index}`"
