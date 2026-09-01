@@ -58,8 +58,8 @@ Published packages should depend on the npm version of `@tnotesjs/ui`, not `file
 |------|---------|--------|
 | `words` | `[]` | Word strings |
 | `needSort` | `false` | Sort A→Z by first letter |
-| `wordsBaseUrl` | TNotes.en-words blob URL | Optional host override |
-| `wordsRawBaseUrl` | TNotes.en-words raw URL | Optional host override |
+| `wordsBaseUrl` | en-words blob URL | Optional host override |
+| `wordsRawBaseUrl` | en-words raw URL | Optional host override |
 | `features` | `WORD_LIST_FEATURES_FULL` | Capability flags (see below) |
 
 ```md
